@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url("file:///My Passport/楊律師(藍底白字) 拷貝 3/layout.css");
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+	font-family: "標楷體";
+}
+body {
+	background-color:#FFF
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+	position: relative;
+	height:250px;
+}
+
+
+
+.header .A{
+	position: absolute;
+	left: 1092px;
+	top: 142px;
+	}
+.nav{
+	background-color:
+	#FC6}
+.p{
+	position:absolute;
+	}
+.p1{
+	margin: 20px;
+	margin-bottom:50;
+	animation: aaa 10S;
+	-webkit-animation: aaa 10S;
+	position:absolute;
+	}
+@keyframes aaa{
+	0%{ transform:translateY(-300px)}
+	10%{transform:translateY(0px)}
+	30%{opacity:1}
+	50%{}
+	70%{}
+	100%{}
+}
+@-webkit-keyframes aaa{
+	0%{ transform:translateY(-300px)}
+	10%{transform:translateY(0px)}
+	30%{opacity:1}
+	50%{}
+	70%{}
+	100%{}
+}
+	
+.p2{
+	
+	}
+
+.header p {
+	color: #006;
+	font-size: 28px;
+	position: absolute;
+	left: 212px;
+	top: 203px;
+	height: 29px;
+	width: 339px;
+}
+.nav {
+	height: 90px;
+}
+.nav ul {
+}
+.nav li {
+	list-style-type: none;
+	float: left
+}
+.nav li a {
+	margin-top:20px;
+	display: block;
+	width: 120px;
+	height: 50px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 50px;
+	color:#03C;
+	text-decoration: none;
+	margin-left:30px;
+
+	box-shadow: #FFF  5px 5px;
+	transition:all 1s;
+}
+.nav li a:hover {
+	background-color:#CFF;
+	text-align: center;
+	line-height: 50px;
+	color: #00C;
+	text-decoration: none;
+	margin-left: 50px;
+	border-radius: 5px 20px 20px 20px;
+	transform:scale(1,1) rotate(10deg);
+}
+.content {
+	font-size: 40px;
+	font-family: "標楷體";
+	color:#303;
+	background-color:#FC9;
+}
+.box{
+	width:250px;
+	float:left;
+	margin:20px;}
+.content h2 {
+	color: #630;
+}
+.content p {
+	letter-spacing: 4px;
+	text-indent: 10px;
+	font-size:24px;
+	margin-top:10px;
+}
+.footer {
+	clear:both;
+	background-color: #415E94
+	;
+	color:#FFF;
+	font-size:24px;
+	text-align:center;
+	position:relative;
+}
+.footer h1 {
+	position: absolute;
+	left: 685px;
+	top: 6px;
+	width: 441px;
+	height: 52px;
+}
+.footer h2 {
+	position: absolute;
+	left: 8px;
+	top: 18px;
+	font-size:24px
+}
